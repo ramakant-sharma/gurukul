@@ -1,0 +1,572 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    
+}
+
+
+body{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#headerdiv{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    width: 100%;
+    height:50px;
+    color: white;
+  /*  text-align: right;*/
+    padding-left: 80px;
+    
+    
+}
+#headerdiv div{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    height: 40px;
+}
+#icons{
+    
+    
+    
+    
+}
+/*#icons img{
+    width: 40px;
+    height: 80%;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 10px;
+    border:none;
+    margin-right:
+}*/
+
+#schoolcode{
+    cursor:pointer;
+}
+
+#time{
+    
+}
+#searchbox{
+padding-top: 8px;
+}
+#searchbox img{
+    width: 25px;
+    vertical-align: top;
+    /* background-color: #1e73be; */
+    background-color: gray;
+    margin-left: -5px;
+    
+}
+#searchbox{
+    
+}
+#searchbox #search{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    width: 200px;
+    border: 1px solid white;
+    height: 30px;
+    margin-right: 0px;
+    color: white;
+    vertical-align: top;
+    border-right: none;
+    cursor: pointer;
+    
+}
+#searchbox .fa-search{
+   color: white;
+    vertical-align: top;
+    margin: 0px;
+    padding: 4px 0px 4px 0px;
+    width: 20px;
+    margin-left: -5px;
+    border: 1px solid white;
+    border-left: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    
+
+}
+#schoolname{
+    color: white;
+}
+
+
+#menu_and_logo{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+}
+
+#logo{
+   width: 30%;
+}
+#menu_and_logo div  {
+ 
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo img{
+  margin-left: 50px;
+    padding-top: 20px;
+
+    
+  
+}
+#menu{
+    
+   text-align: center;
+    padding-top: 40px;
+
+}
+#menu ul{
+margin: 0px;
+}
+#menu ul li
+{
+    display: inline-block;
+   font-weight: bolder;
+    color: #0a0101;
+    width: 170px;
+    height: auto;
+    /*border-bottom: 5px solid #1e73be;*/
+    vertical-align: top;
+    cursor: pointer;
+    
+    
+   
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#menu ul li:hover
+{
+
+     color: #1e73be;
+}
+#menu ul ul{
+    display: none;
+    width: 220px;
+    margin: 0px;
+    /* height: 400px; */
+    opacity: 0.9;
+    
+    
+}
+#menu ul li:hover ul{
+    display: block;
+    text-align: left;
+    padding: 10px 0px 10px 0PX; 
+    margin: 0px;
+    font-size: 13px;
+    background-color:#ededed;
+    
+    
+}
+#menu ul ul li:hover a{
+color:#1e73be;
+padding: 0px;
+}
+#menu ul ul li{
+    border-bottom: 2px solid white;
+    padding: 8px 15px; 
+    width: 100%;
+    list-style: none;
+}
+#menu ul ul li:hover{
+
+    cursor: pointer;
+}
+#menu ul ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    line-height: 25px;
+    
+   
+}
+#schoolname{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    
+}
+
+
+#schoolname p{
+ margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+   
+}
+.slideshow{
+    width: 100%;
+}
+.slideshow img{
+    width: 100%;
+    height: 500px;
+    
+}
+
+main{
+    background-color:white;
+}
+.teachersaward p{
+    text-align: center;
+    font-size: 30px;
+}
+.aboutteachers{
+    margin-top: 50px;
+   /* box-shadow: 1px 2px 5px 5px gray;*/
+    padding-top: 25px;
+    height: 350px;
+/*   background-image: url(Images/background17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: #ededed;
+    
+
+}
+.aboutteachers div{
+    display: inline-block;
+    width: 20%;
+    padding-top: 50px;
+    margin-left: 50px;
+    vertical-align: top;
+
+}
+
+
+.aboutteachers div img{
+    width: 150px;
+    height: 150px;
+   
+}
+.aboutteachers div p{
+    font-size: 20px;
+    font-weight: bold
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+.teachersaward{
+    width: 100%;
+    text-align: center;
+    
+}
+.teachersaward div{
+    background-color: #ededed;
+}
+.teachersaward img{
+    width: 25%;
+    height: auto;
+    margin: 0 30px 0px 0px; 
+    padding: 10px 0px 50px 0px;
+}
+.fa {
+ 
+ 
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    padding: 7px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.fa-twitter {
+   border: 1px solid white;
+    border-radius: 100%;
+  color: white;
+}
+
+
+.fa-youtube {
+ border: 1px solid white;
+    border-radius: 100%;
+  color: white;
+}
+
+.fa-instagram {
+  border: 1px solid white;
+    border-radius: 100%;
+  color: white;
+}
+.recentnews{
+  /*background-image: url(Images/background17.jpg);*/
+    padding-bottom: 50px;
+    
+   
+}
+.recentnews p{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.recentnews div{
+  
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    background-color: #ededed;
+    vertical-align: top;
+    
+
+    
+  
+}
+
+
+
+
+ /* .recentnews div span{
+    vertical-align: top;
+    font-size: 15px;
+    
+} */
+.recentnews div:hover{
+    
+    
+box-shadow: 1px 2px 3px 2px gray;
+
+}
+.recentnews div img{
+  
+    width: 20%;
+    vertical-align: text-top; 
+    /* padding: 10px 10px 10px 10px; */
+    border-right: 1px solid white;
+   
+    
+    
+}
+.recentnews div span{
+    display: inline-block;
+   padding-top: 20px;
+   margin: 0px;
+   vertical-align: top;
+}
+.recentnews div p{
+    display: inline-block;
+   padding-top: 20px;
+   margin: 0px;
+   vertical-align: top;
+   font-size: 20px;
+   text-align: left;
+}
+
+/* .recentnews div img:hover{
+   
+} */
+.contents{
+    position: relative;
+}
+.testimonials{
+    background-image: url(Images/background13.jpg);
+    
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+    
+}
+.testimonials h2{
+    text-align: center;
+    padding-top:30px;
+}
+.content{
+   
+     height: 500px;
+    width: 100%;
+
+}
+ 
+ /* .content  div:nth-of-type(1) {
+    background-color: white;
+    width: 80%;
+    height: 250px;
+  margin: auto;
+  opacity: 0.8;
+  } */
+
+.content div{
+    background-color: white;
+    width: 80%;
+    height: 250px;
+  margin: auto;
+  
+  
+}
+.content div div {
+    width: 100%;
+    opacity: 0.9;
+    height: 100%;
+
+}
+.content div img{
+    width:13%;
+    height: 150px;;
+   
+    margin: 50px 0px 0px 50px;
+    float: left;
+    
+
+}
+.content div h3{
+  
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.content div p{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    text-align: top;
+    margin-left: 50px;
+}
+.content div span{
+    vertical-align: text-top
+}
+.content button{
+    float: right;
+position: relative;
+top: 90px;
+margin-right: 5px;
+width: 10px;
+height: 7px;
+border: none;
+border: 1px solid gray;
+background-color: none;
+
+}
+.content button:hover{
+    background-color: gray;
+   
+}
+.events{
+    margin-top: 40px;
+    text-align: center;
+}
+.events button{
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    color: #1e73be;
+    background:none;
+    border: black 1px solid;
+    margin: 0px 15px;
+    border-radius: 7px;
+    margin-bottom: 15x;
+    cursor: pointer;
+    
+}
+.events button:hover{
+    background-color:  #1e73be;
+    color: white; 
+}
+.events img{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    color: #f2f2f3;
+  background-color: #0a0101
+}
+footer div{
+    display: inline-block;
+    vertical-align: top;
+    color: #f2f2f3;
+    width: 30%;
+    line-height: 33px;
+    margin: 20px;
+    
+
+   
+   
+
+}
+#aboutus ul {
+    margin-left: 155px;
+}
+footer div ul{
+    margin: 0px;
+    padding: 0px;
+}
+footer div ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: left;
+    
+ 
+    
+}
+footer div ul li a{
+    text-decoration: none;
+    color: #f2f2f3;
+   
+    
+} #aboutus{
+    text-align: center;
+}
+#contactus address{
+    font-size: 20px;
+}
+#rules{
+    font-size: 15px;
+    /* text-align: center; */
+}
+.fa-phone{
+    margin: 0px;
+    padding: 0px;
+}
+#contactus p{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+footer section{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+footer section p{
+    margin: 0px;
+    padding: 0px;
+}

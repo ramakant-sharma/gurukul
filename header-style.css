@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    
+}
+
+
+body{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#headerdiv{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    width: 100%;
+    height:50px;
+    color: white;
+   text-align: right;
+    padding-right: 80px;
+    
+    
+}
+#headerdiv div{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    height: 40px;
+}
+#logo h2{
+    color:navy;
+    text-align: center;
+    
+    margin: 0px;
+}
+#logo h2:nth-of-type(1) {
+    color: red;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 45px;
+}
+#icons{
+    
+    
+    
+    
+}
+
+.fa {
+ 
+ 
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+      padding: 7px;
+  
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    
+    color: white;
+      border: 1px solid white;
+      border-radius: 100%;
+  }
+  
+  .fa-twitter {
+     border: 1px solid white;
+      border-radius: 100%;
+    color: white;
+  }
+  
+  
+  .fa-youtube {
+   border: 1px solid white;
+      border-radius: 100%;
+    color: white;
+  }
+  
+  .fa-instagram {
+    border: 1px solid white;
+      border-radius: 100%;
+    color: white;
+  }
+/*#icons img{
+    width: 40px;
+    height: 80%;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 10px;
+    border:none;
+    margin-right:
+}*/
+
+#schoolcode{
+    cursor:pointer;
+}
+
+#time{
+    
+}
+#searchbox{
+padding-top: 8px;
+}
+#searchbox img{
+    width: 25px;
+    vertical-align: top;
+    /* background-color: #1e73be; */
+    background-color: gray;
+    margin-left: -5px;
+    
+}
+#searchbox{
+    
+    
+}
+#searchbox #search{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    width: 200px;
+    border: 1px solid white;
+    height: 30px;
+    margin-right: 0px;
+    color: white;
+    vertical-align: top;
+    border-right: none;
+    
+}
+#searchbox .fa-search{
+   color: white;
+    vertical-align: top;
+    margin: 0px;
+    padding: 4px 0px 4px 0px;
+    width: 20px;
+    margin-left: -5px;
+    border: 1px solid white;
+    border-left: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    
+
+}
+#schoolname{
+    color: white;
+}
+
+
+#menu_and_logo{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+}
+#logo{
+   width: 30%;
+}
+#menu_and_logo div  {
+ 
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo img{
+  margin-left: 50px;
+    padding-top: 20px;
+
+    
+  
+}
+#menu{
+    
+   text-align: center;
+    padding-top: 40px;
+
+}
+#menu ul{
+margin: 0px;
+}
+#menu ul li
+{
+    display: inline-block;
+   font-weight: bolder;
+    color: #0a0101;
+    width: 170px;
+    height: auto;
+    /*border-bottom: 5px solid #1e73be;*/
+    vertical-align: top;
+    cursor: pointer;
+    
+   
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#menu ul li:hover
+{
+
+     color: #1e73be;
+}
+#menu ul ul{
+    display: none;
+    width: 220px;
+    margin: 0px;
+    /* height: 400px; */
+    opacity: 0.9;
+    
+    
+}
+#menu ul li:hover > ul{
+    display: block;
+    text-align: left;
+    padding: 10px 0px 10px 0PX; 
+    margin: 0px;
+    font-size: 13px;
+    background-color:#ededed;
+    
+    
+}
+#menu ul ul li:hover a{
+color:#1e73be;
+padding: 0px;
+}
+#menu ul ul li{
+    border-bottom: 2px solid white;
+    padding: 8px 15px; 
+    width: 100%;
+}
+#menu ul ul li:hover{
+
+    cursor: pointer;
+}
+#menu ul ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    line-height: 25px;
+    
+   
+}
+#schoolname{
+    /* background-color: #1e73be; */
+    background-color: gray;
+    
+}
+
+
+#schoolname p{
+ margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+   
+}
