@@ -2,7 +2,7 @@
                  "Images/background17.jpg",
                 "library-imags/books1.jpg",
                  "library-imags/books2.jpg",
-                 "images/student1.jpg"
+                 "Images/student1.jpg"
                  ];
     var i = 0;
     
