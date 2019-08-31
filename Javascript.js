@@ -1,8 +1,8 @@
     var images = ["Images/background13.jpg",
                  "Images/background17.jpg",
                 "library-imags/books1.jpg",
-                 "library-imags/books2.jpg",
-                 "Images/student1.jpg"
+                 "Images/student1.jpg",
+                  "library-imags/books2.jpg"
                  ];
     var i = 0;
     
